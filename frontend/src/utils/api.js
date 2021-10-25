@@ -73,7 +73,7 @@ export async function listMovies(signal) {
     Promise.all(movies.map(addReviews))
   );
 }
-
+ 
 /**
  * Retrieves all existing theaters
  * @returns {Promise<[theater]>}
